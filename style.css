@@ -1,0 +1,290 @@
+/*roo setup*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    width: 95vw;
+    margin: 2rem auto;
+}
+
+.body {
+    background: rgba(2, 2, 94, .5);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    color: rgb(221, 204, 240);
+}
+
+
+/*title style*/
+
+h1 {
+    padding: 8px;
+    color: rgb(179, 170, 176);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.first {
+    font-size: 1.3rem;
+}
+
+h1 span {
+    color: rgb(39, 31, 31);
+    margin-left: 30px;
+}
+
+
+/*header section styling*/
+
+.header-section {
+    background-image: linear-gradient(to bottom, #000, rgba(7, 104, 104, .4)), url(images/bg\ 1.jpeg);
+    ;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+
+/*navigation  style*/
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+li a:link,
+li a:visited {
+    color: rgb(90, 156, 209);
+}
+
+li a:hover {
+    color: wheat;
+    background-color: rgba(255, 165, 0, .6);
+    border-radius: 10px;
+    padding: 4px 2px;
+}
+
+.para1 {
+    margin: 4rem;
+    font-size: 1.7rem;
+}
+
+
+/*about me section styles*/
+
+#about {
+    background-color: rgba(4, 4, 124, .5);
+    padding: 20px 30px;
+}
+
+.about-p {
+    font-size: 1.2rem;
+}
+
+
+/* skills section stylyes*/
+
+#skills h2 {
+    padding: 20px;
+    background-color: rgba(3, 3, 102, .5);
+}
+
+.skill-in {
+    padding: 20px 30px;
+    display: flex;
+}
+
+.logo-img {
+    width: 40px;
+    border-radius: 80px;
+}
+
+.progress {
+    width: 70%;
+    height: 15px;
+    background: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.progress p {
+    height: 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.progress .p1 {
+    width: 90%;
+    background-color: rgba(3, 109, 38, .7);
+}
+
+.progress .p2 {
+    width: 75%;
+    background-color: rgba(2, 2, 252, .7);
+}
+
+.progress .p3 {
+    width: 45%;
+    background-color: rgba(255, 69, 0, .7);
+}
+
+.progress .p4 {
+    width: 35%;
+    background-color: blueviolet;
+}
+
+.progress .p5 {
+    width: 10%;
+    background-color: rgba(248, 6, 6, 0.705);
+}
+
+.progress .p6 {
+    width: 40%;
+    background-color: rgba(252, 165, 4, .7);
+}
+
+
+/* project section styles*/
+
+.gb {
+    background-color: rgba(6, 6, 114, .4);
+}
+
+.gb h2 {
+    padding: 20px;
+}
+
+.project-content {
+    padding: 30px;
+}
+
+.project-img {
+    width: 80%;
+    border-radius: 20PX;
+}
+
+.project-content h4 {
+    margin-bottom: 20px;
+}
+
+#btn {
+    color: rgba(240, 240, 162, 0.7);
+    padding: 10px;
+    background-color: rgba(2, 139, 98, .6);
+    border-radius: 15px;
+}
+
+
+/* contact us section*/
+
+form {
+    width: 80%;
+    background-color: rgba(47, 2, 168, .5);
+    padding: 30px 10px;
+    margin: 20px auto;
+}
+
+input {
+    width: 95%;
+    margin: 0 1.2rem 2rem 1.2rem;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    margin: 0 2rem 2rem 2rem;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+button {
+    padding: 10px;
+    background-color: rgba(11, 11, 243, .6);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color: cornsilk;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+
+.footer-section {
+    background-color: rgba(10, 10, 190, 0.5);
+}
+
+.footer {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.icon {
+    width: 30px;
+    padding-left: 6px;
+}
+
+@media screen and (min-width: 750px) {
+    body {
+        width: 80vw;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+    .about-p {
+        margin: 0 10%;
+    }
+    .nav {
+        font-size: 1.5rem;
+    }
+    #projects {
+        display: flex;
+        margin: 30px;
+        justify-content: space-evenly;
+    }
+    .project-content {
+        width: 36%;
+        padding: 30px;
+    }
+    .progress {
+        width: 70%;
+        ;
+        height: 20px;
+        background: white;
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-left: 12px;
+    }
+    .progress p {
+        height: 20px;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        text-align: right;
+    }
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .para1 {
+        margin: 4rem;
+        font-size: 4rem;
+    }
+    .first {
+        font-size: 2rem;
+    }
+}
